@@ -1,9 +1,92 @@
+<!DOCTYPE html>
 <html>
-
+  <head>
+    <title>HTML CSS Cheat Sheet</title>
+  </head>
 <body>
-  <h1>Robert Ward</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+  <h1>Build your own cheat sheet</h1>
+    <p>This project is used for reference and the correlation between HTML and CSS using proper syntax.</p>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+  <!--Table outline. Table starts with "<table>" and ends with "</table>". <tr> is used for Table rows and <td> is the data for that cell-->
+ <h2>Table Examples</h2>
+    <table>
+     <tr>
+        <td>&nbsp;</td><!--The &nbsp was used to create a blank space in the first column/row-->
+        <th>First</th><!-- The <th> represents a heading-->
+        <th>Second</th>
+        <th>Third</th>
+        <th>Fourth</th>
+      </tr>
+      <tr>
+        <th>Fifth</th>
+        <td>FirstFifth</td>
+        <td>SecondFifth</td>
+        <td>ThirdFifth</td>
+        <td>ForthFifth</td>
+      </tr>
+      <tr>
+        <th>Sixth</th>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <th>Seventh</th>
+        <td>FirstSeventh</td>
+        <td>SecondSeventh</td>
+        <td>ThirdSeventh</td>
+        <td>ForthSeventh</td>
+      </tr>
+      <tr>
+        <th>Eighth</th>
+        <td>FirstEighth</td>
+        <td>SecondEighth</td>
+        <td>ThirdEighth</td>
+        <td>ForthEighth</td>
+      </tr>
+  </table>
+  <br></br>
+  <table><!--The table shows how to create a rowspan and colspan-->
+    <tr>
+      <th colspan="2">Nineth</th>
+    </tr>
+    <tr>
+      <th colspan="2">Tenth</th>
+    </tr>
+    <tr>
+      <th rowspan="2">Eleventh</th>
+      <td>One</td>
+    </tr>
+    <tr>
+      <td>Two</td>
+    </tr>
+    <tr>
+      <th colspan="2">Twelveth</th>
+    </tr>
+    <tr>
+      <th rowspan="2">Thirteenth</th>
+      <td>Three</td>
+    </tr>
+    <tr>
+      <td>Four</td>
+    </tr>
+  </table>
+    <br></br>
+  <h2>Inserting Picture Examples</h2>
+    <!--Example images 1 and 2 are local file images-->
+  <div class="exampleimages">
+    <image src="/images/exampleimage1.jpg" id="exampleimage1" alt="Example Image 1" width="200" height="200"/>
+   <image src="/images/exampleimage2.jpg" id="exampleimage2" alt="Example Image 2" width="200" height="200"/>
+   <image src="https://leadschool.in/wp-content/uploads/2022/04/shutterstock_1777292972.jpg" id="exampleimage3" alt="Example Web Linked Image" width="200" height="200"/>
+   </div>
+<br></br>
+<h2>Work in progress</h2>
+<p>As I learn more, I will integrate those elements into this cheat sheet reference.</p>
+<!--Below is examples using linking reference-->
+  <h2>Links</h2>
+    <p>Here is a link to <a href="https://www.codecademy.com/learn/paths/build-your-own-cheat-sheet">Codecademy</a> to learn more about HTML and CSS.</p>
+    <p>Here is a link to <a href="https://www.codecademy.com/learn/paths/build-your-own-cheat-sheet/modules/learn-html-css-structure">HTML and CSS Structure</a>.</p>
+    <p>Here is a link to <a href="https://www.codecademy.com/learn/paths/build-your-own-cheat-sheet/modules/learn-html-css-text">HTML and CSS Text</a>.</p>
 </body>
-
 </html>
